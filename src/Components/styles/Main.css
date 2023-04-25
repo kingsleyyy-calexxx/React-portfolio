@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+/* body{
+    background-image: url(../assets/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.mycontent h1{
+    height: 35rem;
+    float: right;
+    margin: 10rem;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.mypic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+.mypic.visible {
+    opacity: 1;
+}
+
+.mypic.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.mypic-1 {
+    height: 35rem;
+    float: right;
+    margin: 10rem;
+  }
+  
+  .mypic-2 {
+    height: 35rem;
+    float: right;
+    margin: 10rem;
+  }
+  
+  .mypic-3 {
+    height: 35rem;
+    float: right;
+    margin: 10rem;
+  }
+  .mypic-4 {
+    height: 35rem;
+    float: right;
+    margin: 10rem;
+}
+      
+
+  

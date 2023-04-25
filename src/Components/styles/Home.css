@@ -1,0 +1,20 @@
+.main{
+    background-image: url('../assets/bg.jpg'); 
+    z-index: -1
+    ;
+}
+/* .trans{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+} */
+.text{
+    margin: 10rem;
+    float: inline-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my-img{
+    height: 25rem;
+    float: right;
+}

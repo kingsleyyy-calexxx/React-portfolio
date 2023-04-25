@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background-image: url('../assets/skillsbg.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill{
+    margin: 10rem;
+    float: inline-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.col{
+    margin: 10rem;
+}
+.stack{
+    margin-top: 10rem;
+}
+.skill-text{
+    color:white;
+    font-size: 25px;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+}
